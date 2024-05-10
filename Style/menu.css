@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    background: url("../img/infos.jpg") no-repeat center center/cover;
+    padding-top: 120px;
+}
+:root{
+    --bluur-moutarde :  linear-gradient(135deg, rgba(181, 81, 5, 0.3), rgba(255, 255, 255, 0));
+    --bluur :  linear-gradient(135deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0));
+    --moutarde:#e78c03;
+    --moutarde-jaune:#fda745;
+    --rouge:#CC0C02;
+}
+
+#navbar{
+    top: 0;
+}
+
+#list_menu {
+    margin: auto;
+    margin-top: 20px;
+    width: 70%;
+    border-radius: 20px;
+   background: rgba(92, 90, 90, 0.797);
+   backdrop-filter: blur(10px);;
+    
+    padding: 70px;
+    z-index: -10;
+}
+#list_menu ul li:first-child{
+    text-align: center;
+    list-style: none;
+    position: relative;
+    bottom: 50px;
+    font-size: 2.7rem;
+    color: var(--moutarde);
+}
+
+#list_menu ul li{
+    list-style: none;
+    color: #fff;
+}
+
+#list_menu ul li h3 {
+    text-decoration: underline;
+    color: var(--moutarde);
+    display: inline;
+}
+
+
+#list_menu .divgen{
+    display: flex;
+    width: 100%;
+}
+.divp{
+    width: 90%;
+}
+
+#list_menu .divgen .btndiv{
+    width: 10%;
+    
+    
+}
+
+
+#list_menu ul li .button1{
+padding: 12px 10px;
+background: var(--moutarde);
+font-weight: bold;
+transition: all 0.4s ease;
+border: none;
+border-radius: 10px;
+position: relative;
+bottom: 25px;
+margin-left: 8px;
+}
+
+
+
+
+
+
+
+
+#list_menu ul li .button1:hover{
+    cursor: pointer;
+    background:#000 ;
+    color: #fff;
+}
+
+@media (max-width:700px){
+    #list_menu {
+    width: 95%;
+    border-radius: 40px;
+}
+    
+}
+

@@ -1,0 +1,124 @@
+   @media (min-width:1000px){
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --bluur-moutarde :  linear-gradient(135deg, rgba(181, 81, 5, 0.3), rgba(255, 255, 255, 0));
+    --bluur :  linear-gradient(135deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0));
+    --moutarde:#e78c03;
+    --moutarde-jaune:#fda745;
+    --rouge:#CC0C02;
+}
+
+html{
+    background: url("../img/contact.jpg") no-repeat center center/cover;
+    height: 120vh;
+     padding-top: 100px;
+}
+
+
+form{
+    padding-bottom: 45px;
+    padding-top:20px;
+    max-width: 500px;
+    margin-left: 55%;
+}
+
+#navbar{
+   top: 0;
+}
+
+
+
+
+form  .button1{
+    padding: 10px 15px;
+    background: var(--moutarde);
+    transition: all 0.4s ease;
+    border: none;
+    border-radius: 10px;
+    align-items: end;  
+    }
+
+  form .button1:hover{
+        cursor: pointer;
+        background:#190b02 ;
+        color: #fff;
+    }
+
+    form input{
+        border-radius: 10px;
+        border-style: none;
+        padding: 15px 35px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        outline:#CC0C02;
+    }
+
+
+    textarea{
+        margin-top: 20px;
+        width: 96.7%;
+        border-radius: 10px;
+        padding: 20px;
+        font-size: 1rem;
+        border: none;
+        margin-bottom: 5px;
+        outline: none;
+        
+    }
+
+    #address{
+        padding: 10px 0;
+        background: #190b02;
+        display: flex;
+        width: 100%;
+    }
+
+    address{
+        color: #fff;
+        width: 50%;
+        font-size: 1.2rem;
+        position: relative;
+        top: 20%;
+        left: 20%;
+        justify-content: center;
+
+    }
+
+    #map{
+        margin-top: 10px;
+        position: relative;
+        left:180px;
+        
+    }
+
+    .address_left{
+        position: relative;
+        left: 43px;
+        top: 10px;
+        background: var(--moutarde);
+        border-radius: 1.5rem;
+        height: 310px;
+        width: 40%;
+    }
+
+    .address_left h1{
+        color: #fff;
+        position: relative;
+        top: 10%;
+        right: 20%;
+        font-size: 2rem;
+        font-weight: bolder;
+        text-decoration: underline #fff;
+    }
+
+    footer{
+        position: relative;
+        /* top:10px; */
+    }
+    }
+
+
